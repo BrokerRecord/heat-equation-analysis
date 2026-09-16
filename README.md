@@ -48,8 +48,8 @@ We study the heat equation on a finite interval with homogeneous Dirichlet bound
 
 $$
 \begin{cases}
-\dfrac{\partial u}{\partial t} = \alpha \dfrac{\partial^2 u}{\partial x^2}, & x \in (0, L),\ t > 0 \\[4pt]
-u(0, t) = u(L, t) = 0, & t > 0 \\[4pt]
+\dfrac{\partial u}{\partial t} = \alpha \dfrac{\partial^2 u}{\partial x^2}, & x \in (0, L),\ t > 0 \
+u(0, t) = u(L, t) = 0, & t > 0 \
 u(x, 0) = u_0(x), & x \in (0, L)
 \end{cases}
 $$
