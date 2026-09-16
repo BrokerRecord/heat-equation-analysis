@@ -1,0 +1,3 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Amplitude of the numerical solution after 200 FTCS steps for $r = 0.25$, $0.49$, and $0.5$. All three cases are stable and remain bounded. For $r > 0.5$ the scheme is unstable (see the discussion in \S \ref {sec:discussion}).}}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of the analytical and numerical (FTCS) solutions at $t=0.1$ for the single-mode initial condition. The solutions are virtually indistinguishable.}}{6}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Log--log plot of the $L_\infty $ and $L_2$ errors vs.\ $\Delta x$. The slopes of approximately 2.0 confirm the second-order spatial accuracy of the FTCS scheme.}}{7}{figure.caption.6}%
