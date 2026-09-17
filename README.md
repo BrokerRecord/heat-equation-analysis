@@ -1,8 +1,8 @@
 # Analytical and Numerical Study of the One-Dimensional Heat Equation
 
+[![Tests](https://github.com/BrokerRecord/heat-equation-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/BrokerRecord/heat-equation-analysis/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-pytest-green.svg)](tests/)
 [![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)]()
 
 A complete study of the **one-dimensional heat equation**
