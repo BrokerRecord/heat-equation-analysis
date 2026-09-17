@@ -7,5 +7,5 @@ venv/
 .env
 .DS_Store
 data/*.csv
-figures/*.png
+!figures/*.png
 !figures/.gitkeep
