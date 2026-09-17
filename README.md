@@ -143,7 +143,7 @@ $$
 
 **Implementation:** [`src/stability_analysis.py`](src/stability_analysis.py)
 
-![Stability comparison](figures/stability_comparison.png)
+![Stability comparison](./figures/stability_comparison.png)
 _Figure 1 — Amplitude of the numerical solution after 200 FTCS steps for r = 0.25, 0.49, and 0.5. All three cases are stable and remain bounded; the scheme becomes unstable for r > 0.5._
 
 > **Observed:** `r = 0.51` and `r = 0.6` blow up within ~50 steps; `r = 0.5` remains bounded; `r ≤ 0.49` decays monotonically.
@@ -285,7 +285,7 @@ print("L∞ error:", np.max(np.abs(u_num - u_exact)))
 
 ### 1. Analytical vs numerical at `t = 0.1`
 
-![Analytical VS Numerical](figures/analytical_vs_numerical.png)
+![Analytical VS Numerical](./figures/analytical_vs_numerical.png)
 
 _Figure 2 — Comparison of the analytical Fourier-series solution and the FTCS numerical solution for the single-mode initial condition at t = 0.1._
 
@@ -321,7 +321,7 @@ $$
 
 ### Spatial refinement (with `r = 0.4` fixed, so `Δt = r Δx²/α`)
 
-![Convergence](figures/convergence_plot.png)
+![Convergence](./figures/convergence_plot.png)
 
 _Figure 3 — L∞ and L2 errors of the FTCS scheme vs Δx on a log-log scale, with an O(Δx²) reference line._
 
