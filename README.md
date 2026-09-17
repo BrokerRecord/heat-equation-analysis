@@ -195,29 +195,20 @@ heat-equation-analysis/
 
 ## Installation
 
-Requires **Python ≥ 3.10** and the packages in `requirements.txt`.
+Requires **Python ≥ 3.10**.
 
 ```bash
 # Clone the repository
-git clone https://github.com/BrokerRecord/heat-equation-analysis.git
+git clone [https://github.com/BrokerRecord/heat-equation-analysis.git](https://github.com/BrokerRecord/heat-equation-analysis.git)
 cd heat-equation-analysis
 
-# Create a virtual environment
+# Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
-```
+# Install package in editable mode with development dependencies
+pip install -e ".[dev]"
 
-Dependencies:
-
-```
-numpy>=1.24
-scipy>=1.10
-matplotlib>=3.7
-pytest>=7.4
-jupyter>=1.0
 ```
 
 ---
@@ -226,8 +217,9 @@ jupyter>=1.0
 
 ### Run the full analysis pipeline
 
-```bash
 # 1. Analytical vs numerical demo
+
+```bash
 python src/heat_equation.py
 ```
 
