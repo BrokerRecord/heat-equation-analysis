@@ -161,9 +161,11 @@ heat-equation-analysis/
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
+├── .github/workflows/tests.yml ← automate pytest run
+├── pyproject.toml ← for editable package installation
 │
 ├── src/ ← core Python modules
-│ ├── **init**.py
+│ ├── __init__.py
 │ ├── heat_equation.py ← analytical + FTCS solvers
 │ ├── boundary_conditions.py ← Dirichlet / Neumann helpers
 │ ├── stability_analysis.py ← Von Neumann sweep
